@@ -1,0 +1,189 @@
+﻿body {
+	background-color:#F8F8F8;
+}
+.wrapper {
+	margin: 0 auto;
+    width: 986px;
+    background-color:#fff;
+}
+
+.header {
+    
+	width:100%;
+	height:150px;
+	background-image:url(images/header.gif);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+    background-color: #519FBB;
+	cursor:pointer;
+
+}
+.footer
+{
+    clear: both;
+	width:100%;
+	padding-top:20px;
+	background-color:#e6e6e6;
+	clear:both;
+	font-size:14px;
+	line-height:2em;
+	
+}
+
+.editUser {
+	float: left;
+	padding: 10px;
+	width: 70%;
+	border-right:3px solid #eaeaea;
+}
+.editUser h3
+{
+        padding-bottom:15px;
+		font-size:14px;
+		
+}
+
+.editUser p 
+{
+    padding: 5px 0;
+	font-size:14px;
+	color: #666;
+}
+
+
+.editUser #left {
+	float: left;
+	width:170px;
+	text-align: center;
+	
+}
+
+.editUser #right {
+	float: right;
+	
+	width: 516px;
+}
+   
+.navUser {
+	float: right;
+	padding: 10px;
+	width: 25%;
+    
+}
+.navUser li {
+	padding: 5px 0;
+}
+.navUser li h3 {
+	font-size:14px;
+	color: #999;
+}
+.navUser li a 
+{
+    font-size:14px;
+	color:#0084D0;
+	text-decoration: underline;
+}
+    .navUser hr {
+        margin:10px 0;
+        width:100%;
+    }
+
+.floatContainer {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    z-index: 10000;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.replyList {
+    margin:20px auto;
+    width:98%;
+}
+    .replyList li {
+        width:100%;
+    }
+        .replyList li div {
+            
+            margin:0 10px;
+            padding:10px;
+            float:left;
+            width:50%;
+            font-size:14px;
+            background-color:#d6edff;
+            border:1px solid #b5dcfa;
+        }
+
+        .replyList li p {
+            color:#000;
+        }
+        .replyList li p.time {
+            font-size:12px;
+            color:#999;
+        }
+
+.replyList li img {
+    float:left;
+    padding:1px;
+    border:1px solid #ccc;
+}
+    .replyList li.right img {
+        float:right;
+    }
+    .replyList li.right div {
+        float:right;
+        
+        border:1px solid #e1cb82;
+        background-color:#faf4cc;
+    }
+
+.msgContent {
+    margin:auto;
+    width:98%;    
+    background-color:#69b5ec;
+    
+}
+    .msgContent img {
+        float:left;
+        margin:10px;
+        padding:1px;
+        border:1px solid #fff;
+    }
+    .msgContent p {
+        float:left;
+        margin:5px 10px;
+        font-size:14px;
+        color:#fff;
+    }
+    .msgContent span.time {
+        font-size:12px;
+    }
+
+.hint {
+    position:fixed;
+    
+    top:20px;
+    right:20px;
+    
+    background-color:#faf4cc;
+    z-index:200;
+}
+    .hint li {
+        padding:10px;
+    }
+
+.advice {
+    font-size:14px;
+}
+    .advice p {
+        padding:2px 0;
+    }
+        .advice p label {
+            color:#888;
+        }
+        .advice p.button {
+            width:310px;
+            text-align:right;
+        }
+      

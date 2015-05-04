@@ -1,0 +1,220 @@
+﻿.TextBox {
+    padding: 1px 5px;
+    width: 150px;
+    border: 1px solid #ccc;
+}
+
+.Button {
+    padding: 2px 6px;
+    width: auto;
+    _width: 0;
+    overflow: visible;
+    color: #333;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 0 white;
+    white-space: nowrap;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#F4F4F4,#ECECEC);
+    background: -moz-linear-gradient(#F4F4F4,#ECECEC);
+    background: -webkit-linear-gradient(#F4F4F4,#ECECEC);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4',endColorstr='#ececec')";
+    border-image: initial;
+}
+
+/*登录控件CSS*/
+#login {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-bottom: 1px;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #DBEFF9;
+    z-index: 100;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+    #login .container {
+        margin: auto;
+        width: 984px;
+    }
+
+    #login .left {
+        padding-top: 8px;
+        float: left;
+        font-size: 14px;
+    }
+
+        #login .left li {
+            float: left;
+            margin-right: 2px;
+            height: 32px;
+        }
+
+        #login .left a {
+            position: relative;
+            float: left;
+            display: block;
+            white-space: nowrap;
+            padding: 0 8px;
+            font-size: 14px;
+            height: 32px;
+            line-height: 32px;
+            background: #EDF7FC;
+            text-indent: 20px;
+            -webkit-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+            background-position: 8px center;
+            background-repeat: no-repeat;
+        }
+
+            #login .left a:hover, #login .left a.current {
+                background-color: #fff;
+                color: #000;
+            }
+
+            #login .left a:visited {
+                color: #000;
+            }
+
+            #login .left a.discuss {
+                background-image: url(images/discuss.png);
+            }
+
+            #login .left a.commit {
+                background-image: url(images/commit.png);
+            }
+
+            #login .left a.website {
+                background-image: url(images/website1.png);
+            }
+
+            #login .left a.exam {
+                background-image: url(images/exam.png);
+            }
+
+            #login .left a.resource {
+                background-image: url(images/resource.png);
+            }
+
+    #login .right {
+        float: right;
+        padding-top: 12px;
+    }
+
+        #login .right a:visited {
+            color: #000;
+        }
+
+.inputBox p {
+    padding: 5px 0;
+}
+
+    .inputBox p.buttonBox {
+        padding-left: 105px;
+    }
+
+#loginDialog {
+    position: absolute;
+    padding: 5px;
+    width: 400px;
+    height: 240px;
+    display: none;
+    border: 5px solid #7FCAE2;
+    background-color: #f1f5fa;
+    z-index: 200;
+}
+
+    #loginDialog #loginBox {
+        margin: 0 auto;
+        width: 220px;
+        font-size: 14px;
+    }
+
+    #loginDialog iframe {
+        margin: 0 auto;
+        width: 100%;
+        height: 240px;
+    }
+
+    #loginDialog .close {
+        position: absolute;
+        display: block;
+        left: 250px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        background-image: url(images/close.gif);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+        #loginDialog .close:hover {
+            background-position: left -20px;
+        }
+
+#loginErr {
+    width: 90%;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.page {
+    margin: 5px auto;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.currentPage {
+    padding: 2px 6px;
+    border: 1px solid #a3a3a3;
+    background-color: #417eb7;
+    color: #fff;
+}
+
+.pagingButton {
+    padding: 2px 6px;
+    border: 1px solid #a3a3a3;
+}
+
+.toolBar {
+    margin: auto;
+    margin-bottom:10px;
+    
+    width: 100%;
+    height: 30px;
+
+    border:1px solid #ccc;
+    background-color: #f3f3f3;
+
+}
+
+    .toolBar li {
+        float: left;
+        margin-top:4px;
+        margin-left:10px;
+        margin-right: 10px;
+        height:20px;
+        line-height:20px;
+        vertical-align:middle;
+        padding:0px 8px;
+        background-color:#808080;
+        
+    }
+        .toolBar li a {
+            color:#fff;
+        }

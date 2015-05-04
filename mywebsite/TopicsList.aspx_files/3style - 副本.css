@@ -1,0 +1,95 @@
+﻿body {
+	background-color:#F8F8F8;
+}
+.wrapper {
+	margin: 0 auto;
+    width: 986px;
+    background-color:#fff;
+}
+
+.header {
+    
+	width:100%;
+	height:150px;
+	background-image:url(images/header.gif);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+    background-color: #519FBB;
+	cursor:pointer;
+
+}
+.footer
+{
+    clear: both;
+	width:100%;
+	padding-top:20px;
+	background-color:#e6e6e6;
+	clear:both;
+	font-size:14px;
+	line-height:2em;
+	
+}
+
+.editUser {
+	float: left;
+	padding: 10px;
+	width: 70%;
+	border-right:3px solid #eaeaea;
+}
+.editUser h3
+{
+        padding-bottom:15px;
+		font-size:14px;
+		
+}
+
+.editUser p 
+{
+    padding: 5px 0;
+	font-size:14px;
+	color: #666;
+}
+
+
+.editUser #left {
+	float: left;
+	width:170px;
+	text-align: center;
+	
+}
+
+.editUser #right {
+	float: right;
+	
+	width: 516px;
+}
+   
+.navUser {
+	float: right;
+	padding: 10px;
+	width: 25%;
+}
+.navUser li {
+	padding: 5px 0;
+}
+.navUser li h3 {
+	font-size:14px;
+	color: #999;
+}
+.navUser li a 
+{
+    font-size:14px;
+	color:#0084D0;
+	text-decoration: underline;
+
+
+}
+
+.floatContainer {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    z-index: 10000;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
